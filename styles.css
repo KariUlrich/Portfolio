@@ -1,0 +1,819 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Mukta", sans-serif;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+}
+.lista {
+  list-style: none;
+  list-style-type: none;
+  display: flex;
+  margin-right: 50px;
+}
+.link a {
+  text-decoration: none;
+  margin: 20px;
+  padding: 10px;
+  color: black;
+}
+.link a:hover {
+  color: rgb(107, 127, 219);
+}
+.link a:active {
+  box-shadow: 0px 0px 5px 1px rgb(107, 127, 219);
+  border-radius: 20px;
+}
+.lista a:focus {
+  box-shadow: 0px 0px 5px 1px rgb(107, 127, 219);
+  border-radius: 20px;
+  outline: none;
+}
+.CONT {
+  border-radius: 20px;
+  background-color: rgb(107, 127, 219);
+  width: 100px;
+  height: 20px;
+  border: none;
+  font-size: 22px;
+}
+.CONT span {
+  color: white;
+}
+.CONT:hover {
+  background-color: rgb(149, 161, 214);
+}
+.navheader {
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgb(245, 214, 214);
+  box-shadow: 0 14px 28px rgba(248, 188, 188, 0.25),
+    0 10px 10px rgba(243, 174, 174, 0.22);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+@media screen and (max-width: 1100px) and (min-width: 300px) {
+  .navheader {
+    display: none;
+  }
+}
+/*Presentacion*/
+.hola {
+  font-size: 30px;
+  color: rgb(65, 83, 117);
+  margin: 0;
+}
+.yo {
+  font-size: 50px;
+  color: rgb(236, 136, 136);
+  font-family: "Pattaya", sans-serif;
+  margin: 0;
+}
+.tarea {
+  margin-bottom: 50px;
+}
+.boton1 {
+  background-color: rgb(107, 127, 219);
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+}
+.boton1:hover {
+  background-color: rgb(149, 161, 214);
+}
+.boton1:focus {
+  outline: none;
+}
+.section1 a:focus {
+  box-shadow: 0px 0px 5px 1px rgb(107, 127, 219);
+  border-radius: 20px;
+}
+.section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 200px 0px 100px 0px;
+}
+.img1 {
+  width: 450px;
+  height: 400px;
+}
+.div1 {
+  text-align: start;
+}
+@media screen and (max-width: 1100px) and (min-width: 300px) {
+  .section1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .div1 {
+    text-align: center;
+  }
+  .div2 {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 550px) and (min-width: 300px) {
+  .yo {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 450px) and (min-width: 300px) {
+  .img1 {
+    width: 350px;
+    height: 300px;
+  }
+}
+/*Mis Conocimientos*/
+.conocimiento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 238, 238);
+  padding-bottom: 100px;
+  padding-top: 80px;
+}
+.divconocimientos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.misconocimientos {
+  font-size: 45px;
+  font-weight: bold;
+}
+.textconocimientos {
+  width: 600px;
+  font-size: 18px;
+  margin: 0;
+}
+.icon {
+  width: 80px;
+  height: 80px;
+}
+.iconos {
+  height: 500px;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+.card {
+  height: 230px;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #f0c6ec;
+  border-radius: 8px;
+  margin: 10px;
+  background-color: white;
+}
+.card p {
+  font-weight: bold;
+}
+.card:hover {
+  border-color: rgb(236, 136, 136);
+  color: rgb(236, 136, 136);
+}
+@media screen and (max-width: 940px) and (min-width: 680px) {
+  .iconos {
+    width: 750px;
+    height: 750px;
+  }
+}
+@media screen and (max-width: 680px) and (min-width: 580px) {
+  .iconos {
+    width: 500px;
+    height: 1500px;
+  }
+  .textconocimientos {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 580px) and (min-width: 500px) {
+  .card {
+    width: 200px;
+    height: 200px;
+  }
+  .iconos {
+    width: 450px;
+    height: 700px;
+  }
+  .textconocimientos {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 500px) and (min-width: 320px) {
+  .card {
+    width: 200px;
+    height: 200px;
+  }
+  .iconos {
+    width: 400px;
+    height: 1400px;
+  }
+  .textconocimientos {
+    width: 250px;
+  }
+  .misconocimientos {
+    font-size: 30px;
+  }
+}
+/*Comillas*/
+.comillas1 {
+  background-color: rgb(236, 136, 136);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.comillas3 {
+  height: 80px;
+  width: 80px;
+  margin-top: 50px;
+}
+.textocomillas {
+  margin-top: 60px;
+  width: 1000px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.titulocomillas {
+  margin-top: 70px;
+  font-weight: bold;
+}
+@media screen and (max-width: 1050px) and (min-width: 850px) {
+  .textocomillas {
+    width: 800px;
+  }
+}
+@media screen and (max-width: 850px) and (min-width: 650px) {
+  .textocomillas {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 650px) and (min-width: 450px) {
+  .textocomillas {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 450px) and (min-width: 320px) {
+  .textocomillas {
+    width: 260px;
+  }
+}
+/*Mis Proyectos*/
+.proyectos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.divmisproyectos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.misproyectos {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 10px;
+}
+.textproyectos {
+  width: 500px;
+  margin: 0;
+  font-size: 18px;
+}
+.imag {
+  width: 200px;
+}
+.imagenes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  border: 1px solid rgb(238, 197, 197);
+  border-radius: 15px;
+  margin: 14px;
+  cursor: pointer;
+}
+.imagenes h4 {
+  font-size: 16px;
+}
+.imagenes:hover {
+  border-color: rgb(236, 136, 136);
+}
+.imagenes:hover .ima {
+  color: rgb(236, 136, 136);
+}
+.ima:focus {
+  outline: none;
+  color: rgb(236, 136, 136);
+}
+.imagenes:focus-within {
+  border-color: rgb(236, 136, 136);
+}
+.centrarwrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1010px;
+}
+.cards2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.ima {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  margin: 20px;
+  padding: 10px;
+  color: black;
+  text-align: center;
+}
+@media screen and (max-width: 1070px) and (min-width: 900px) {
+  .imagenes {
+    width: 250px;
+    height: 250px;
+  }
+  .imag {
+    width: 100%;
+  }
+  .cards2 {
+    margin-left: 80px;
+  }
+  .centrarwrap {
+    width: 1000px;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 750px) {
+  .imagenes {
+    width: 300px;
+    height: 300px;
+  }
+  .imag {
+    width: 200px;
+  }
+  .cards2 {
+    margin-left: 120px;
+  }
+  .centrarwrap {
+    width: 900px;
+  }
+}
+@media screen and (max-width: 750px) and (min-width: 600px) {
+  .imagenes {
+    width: 250px;
+    height: 250px;
+  }
+  .imag {
+    width: 150px;
+  }
+  .cards2 {
+    margin-left: 220px;
+  }
+
+  .textproyectos {
+    font-size: 15px;
+  }
+  .centrarwrap {
+    width: 750px;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 320px) {
+  .imagenes {
+    width: 250px;
+    height: 250px;
+  }
+  .imag {
+    width: 200px;
+  }
+  .cards2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .textproyectos {
+    font-size: 15px;
+  }
+  .textproyectos {
+    width: 280px;
+  }
+  .centrarwrap {
+    width: 600px;
+    margin-left: 10px;
+  }
+}
+/*Formularios*/
+.centrarform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 232, 232);
+  padding: 100px 0px;
+}
+.formulario {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(253, 250, 250);
+  height: 650px;
+  width: 1000px;
+  border: 1px solid rgb(199, 180, 180);
+  border-radius: 20px;
+  margin: 50px;
+}
+.contactame {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  margin: 0 50px;
+}
+.contactame h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+.contactame p {
+  line-height: 1.4;
+}
+.redes2 {
+  padding-left: 0px;
+}
+.redes2 i {
+  color: rgb(236, 136, 136);
+  padding: 10px;
+}
+.redes3 {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.redes {
+  margin-top: 0px;
+}
+.linkicon {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+.linkicon:hover {
+  color: rgb(236, 136, 136);
+}
+.linkicon:hover i {
+  background-color: rgb(236, 136, 136);
+  color: white;
+  border-radius: 100%;
+}
+.linkicon:active {
+  box-shadow: 0px 0px 5px 1px rgb(236, 136, 136);
+  border-radius: 20px;
+}
+.linkicon:focus {
+  box-shadow: 0px 0px 5px 1px rgb(236, 136, 136);
+  border-radius: 20px;
+  outline: none;
+}
+.escribime {
+  font-size: 18px;
+  margin: 0 50px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.escribime h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+.nombreyapellido {
+  display: flex;
+  justify-content: space-between;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin-top: 20px;
+}
+input[type="text"] {
+  width: 200px;
+  height: 30px;
+  color: rgb(168, 168, 168);
+  border-radius: 20px;
+  background-color: rgb(243, 242, 242);
+  border: none;
+  padding: 5px 10px;
+}
+input[type="email"] {
+  width: 450px;
+  height: 30px;
+  color: rgb(168, 168, 168);
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(243, 242, 242);
+  padding: 5px 10px;
+}
+textarea {
+  color: rgb(168, 168, 168);
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(243, 242, 242);
+  padding: 5px 10px;
+}
+.botonformulario {
+  background-color: rgb(236, 136, 136);
+  color: white;
+  cursor: pointer;
+  border: none;
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.botonformulario:hover {
+  border-radius: 20px;
+  background-color: rgb(235, 173, 173);
+}
+.botonformulario:focus {
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 1px rgb(236, 136, 136);
+  outline: none;
+}
+.botonformulario:active {
+  box-shadow: 0px 0px 5px 1px rgb(236, 136, 136);
+  background-color: rgb(236, 136, 136);
+  border-radius: 20px;
+}
+input[type="text"]:active {
+  box-shadow: 0px 0px 5px 1px rgb(236, 136, 136);
+  border-radius: 20px;
+}
+input[type="email"]:active {
+  box-shadow: 0px 0px 5px 1px rgb(236, 136, 136);
+  border-radius: 20px;
+}
+textarea:active {
+  box-shadow: 0px 0px 5px 1px rgb(236, 136, 136);
+  border-radius: 20px;
+}
+input[type="text"]:focus {
+  box-shadow: 0px 0px 5px 1px rgb(236, 136, 136);
+  border-radius: 20px;
+  outline: none;
+}
+input[type="email"]:focus {
+  box-shadow: 0px 0px 5px 1px rgb(236, 136, 136);
+  border-radius: 20px;
+  outline: none;
+}
+textarea:focus {
+  box-shadow: 0px 0px 5px 1px rgb(236, 136, 136);
+  border-radius: 20px;
+  outline: none;
+}
+@media screen and (max-width: 1050px) and (min-width: 960px) {
+  .escribime {
+    width: 400px;
+  }
+  .formulario {
+    width: 900px;
+    margin: 30px;
+  }
+  input[type="text"] {
+    width: 150px;
+  }
+  input[type="email"] {
+    width: 380px;
+  }
+}
+@media screen and (max-width: 960px) and (min-width: 320px) {
+  input[type="text"] {
+    width: 150px;
+  }
+  input[type="email"] {
+    width: 320px;
+  }
+  textarea {
+    width: 320px;
+  }
+  .nombreyapellido {
+    justify-content: start;
+  }
+  .formulario {
+    width: 800px;
+  }
+  .escribime {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 860px) and (min-width: 320px) {
+  .formulario {
+    flex-direction: column;
+    height: 1000px;
+    width: 650px;
+  }
+  input[type="text"] {
+    width: 250px;
+  }
+  input[type="email"] {
+    width: 520px;
+  }
+  textarea {
+    width: 520px;
+  }
+  .nombreyapellido {
+    justify-content: space-between;
+  }
+  .formulario h2 {
+    margin: 20px 0 0 0;
+  }
+  .divredes1 {
+    display: flex;
+    justify-content: space-between;
+    width: 392px;
+  }
+  .divredes2 {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+  }
+}
+@media screen and (max-width: 750px) and (min-width: 320px) {
+  .formulario {
+    flex-direction: column;
+    height: 1000px;
+    width: 550px;
+  }
+  .divredes2 {
+    width: 400px;
+  }
+  .divredes1 {
+    width: 295px;
+  }
+  input[type="text"] {
+    width: 200px;
+  }
+  input[type="email"] {
+    width: 420px;
+  }
+  textarea {
+    width: 420px;
+  }
+  .nombreyapellido {
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 640px) and (min-width: 320px) {
+  .formulario {
+    width: 320px;
+    height: 1250px;
+  }
+  .contactame p {
+    width: 250px;
+  }
+  input[type="email"] {
+    width: 200px;
+  }
+  textarea {
+    width: 200px;
+  }
+  .divredes2 {
+    flex-direction: column;
+    width: auto;
+  }
+  .divredes1 {
+    flex-direction: column;
+    width: auto;
+  }
+  .nombreyapellido {
+    flex-direction: column;
+  }
+  .redes3 {
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 440px) and (min-width: 320px) {
+  .formulario {
+    width: 290px;
+    height: 1300px;
+  }
+  .redes3 {
+    font-size: 75%;
+  }
+  .contactame p {
+    width: 200px;
+  }
+}
+/*Footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(236, 136, 136);
+  height: 300px;
+}
+.ulfooter {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+.ulfooter a {
+  text-decoration: none;
+  color: white;
+}
+.lifooter {
+  margin: 10px;
+  font-size: 18px;
+}
+.ulfooter2 {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+.lifooter2 {
+  margin: 10px;
+}
+.linkfooter i {
+  border: 1px solid rgb(236, 136, 136);
+  border-radius: 100%;
+  padding: 10px;
+  background-color: white;
+  color: rgb(236, 136, 136);
+}
+.lifooter:active {
+  box-shadow: 0px 0px 5px 1px rgb(250, 247, 247);
+}
+.lifooter a:focus {
+  box-shadow: 0px 0px 5px 1px rgb(250, 247, 247);
+  outline: none;
+}
+.linkfooter i:hover {
+  border: 1px solid white;
+  border-radius: 100%;
+  background-color: rgb(236, 136, 136);
+  color: white;
+}
+.linkfooter i:active {
+  border: 1px solid white;
+  border-radius: 100%;
+  background-color: rgb(236, 136, 136);
+  color: white;
+  box-shadow: 0px 0px 5px 1px white;
+}
+.linkfooter:focus {
+  outline: none;
+  border: 1px solid white;
+  border-radius: 100%;
+  box-shadow: 0px 0px 5px 1px white;
+  background-color: rgb(236, 136, 136);
+  color: white;
+}
+.amor {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.amor p {
+  font-size: 18px;
+  color: white;
+}
+@media screen and (max-width: 700px) and (min-width: 300px) {
+  footer {
+    align-items: center;
+  }
+  .navfooter {
+    display: none;
+  }
+}
