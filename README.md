@@ -8,7 +8,7 @@
 
 ### Enlace al proyecto para visitarlo
 
-Link al proyecto[link](https://kariulrich.github.io/Portfolio/)
+[Link al proyecto](https://kariulrich.github.io/Portfolio/)
 
 ### Contenido:
 
@@ -23,5 +23,3 @@ Link al proyecto[link](https://kariulrich.github.io/Portfolio/)
 - Se utilizaron imágenes de la galería de Ada e iconos de Fontawesome y flaticon.
 
 - Es un documento responsive, con hover, focus y active.
-
-<i class="fas fa-bug"></>
