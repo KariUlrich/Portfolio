@@ -1,4 +1,4 @@
-## Primer trabajo de Portfolio personal en ADA ![IMG] <img src="/palmera.png"/>
+## Primer trabajo de Portfolio personal en ADA !
 
 ### Es una presentación personal y del proyecto Portfolio utilizando como tecnología:
 
@@ -8,7 +8,7 @@
 
 ### Enlace al proyecto para visitarlo
 
-Link al proyecto[link](https)
+Link al proyecto[link](https://kariulrich.github.io/Portfolio/)
 
 ### Contenido:
 
@@ -24,4 +24,4 @@ Link al proyecto[link](https)
 
 - Es un documento responsive, con hover, focus y active.
 
-<i class="fas fa-bug"></i>
+<i class="fas fa-bug"></>
