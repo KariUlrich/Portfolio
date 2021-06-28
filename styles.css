@@ -697,6 +697,12 @@ textarea:focus {
     width: 320px;
     height: 1250px;
   }
+  .contactame {
+    margin: 0 30px;
+  }
+  .escribime {
+    margin: 0 30px;
+  }
   .contactame p {
     width: 250px;
   }
